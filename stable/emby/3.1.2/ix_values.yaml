@@ -5,9 +5,9 @@
 ##
 
 image:
-  repository: zishuo/embyserver
+  repository: ghcr.io/truecharts/emby
   pullPolicy: IfNotPresent
-  tag: latest
+  tag: v4.5.4.0
 
 
 ##
