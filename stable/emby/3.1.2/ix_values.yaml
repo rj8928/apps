@@ -5,7 +5,7 @@
 ##
 
 image:
-  repository: https://hub.docker.com/r/zishuo/embyserver
+  repository: zishuo/embyserver
   pullPolicy: IfNotPresent
   tag: latest
 
