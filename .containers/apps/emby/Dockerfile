@@ -1,7 +1,7 @@
 # hadolint ignore=DL3007
 ARG VERSION
 
-FROM zishuo/embyserver:v${VERSION}
+FROM zishuo/embyserver:latest
 
 
 ARG TARGETPLATFORM
