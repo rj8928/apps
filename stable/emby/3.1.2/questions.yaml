@@ -142,7 +142,7 @@ questions:
                       schema:
                         type: int
                         default: 8096
-                        editable: false
+                        editable: true
                         hidden: false
                     - variable: targetport
                       label: "Internal Service port"
@@ -159,7 +159,7 @@ questions:
                         type: int
                         min: 9000
                         max: 65535
-                        default: 10001
+                        default: 36052
                         required: true
 ## TrueCharts Specific
   - variable: persistence
@@ -419,7 +419,7 @@ questions:
           description: "Additional groups this App needs access to"
           schema:
             type: list
-            default: [44, 107]
+            default: 568
             items:
               - variable: Group
                 label: "Group"
