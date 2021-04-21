@@ -1,7 +1,7 @@
 # hadolint ignore=DL3007
 ARG VERSION
 
-FROM hub.docker.com/r/zishuo/embyserver
+FROM https://hub.docker.com/r/zishuo/embyserver
 
 
 ARG TARGETPLATFORM
